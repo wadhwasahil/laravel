@@ -9,7 +9,8 @@ class StudentController extends BaseController {
 	 */
 	public function index()
 	{
-		$data=Student_info::getdata();
+		//$data=Student_info::getdata();
+		echo "reached";
 		return View::make('hello');
 	}
 
