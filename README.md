@@ -37,5 +37,11 @@
 
 #To run this code on your computer 
   <ul>
-    <li>change <b> /config/database.php</b> file and update necessary database,username and password under "mysql" </li>
+    <li>change <b> /config/database.php</b> file and update necessary database,username and\
+    password under"mysql"</li>
+    <li><b>Call the migrations</b> 
+        <ol>
+          <li> php artisan migrate</li>
+        </ol>
+    </li>
   </ul>
