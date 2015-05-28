@@ -34,3 +34,8 @@
   <li>laravel new "projectname"</li>
   <b>This will create a folder in your current repository.</b>
 </ul>
+
+#To run this code on your computer 
+  <ul>
+    <li>change <b> /config/database.php</b> file and update necessary database,username and password under "mysql" </li>
+  </ul>
