@@ -1,0 +1,69 @@
+{
+	"name": "laravel/laravel",
+	"description": "The Laravel Framework.",
+	"keywords": ["framework", "laravel"],
+	"license": "MIT",
+<<<<<<< HEAD
+	"type": "project",
+	"require": {
+		"laravel/framework": "5.0.*",
+		"illuminate/html": "^5.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.0",
+		"phpspec/phpspec": "~2.1"
+	},
+	"autoload": {
+		"classmap": [
+			"database"
+		],
+		"psr-4": {
+			"App\\": "app/"
+		}
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests/TestCase.php"
+=======
+	"require": {
+		"laravel/framework": "4.2.*"
+	},
+	"autoload": {
+		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/models",
+			"app/database/migrations",
+			"app/database/seeds",
+			"app/tests/TestCase.php"
+>>>>>>> 3776bec73aabdb8a3b9612e3c8eec6c70215faa0
+		]
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php artisan clear-compiled",
+			"php artisan optimize"
+		],
+		"post-update-cmd": [
+			"php artisan clear-compiled",
+			"php artisan optimize"
+		],
+		"post-create-project-cmd": [
+<<<<<<< HEAD
+			"php -r \"copy('.env.example', '.env');\"",
+=======
+>>>>>>> 3776bec73aabdb8a3b9612e3c8eec6c70215faa0
+			"php artisan key:generate"
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+<<<<<<< HEAD
+=======
+	},
+	"minimum-stability": "stable",
+	"require-dev": {
+		"way/generators": "^3.0"
+>>>>>>> 3776bec73aabdb8a3b9612e3c8eec6c70215faa0
+	}
+}
