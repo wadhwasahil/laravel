@@ -7,7 +7,7 @@
 	</style>	
 	<header>
 			<h2>BTE Engineering College</h2>
-			<span><a href="#">Add Student</a> | <a href="#">List all Students</a></span>
+			<span><a href="#Add_Student">Add Student</a> | <a href="/">List all Students</a></span>
 	</header>
 	<style>
 		body{
