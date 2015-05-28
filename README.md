@@ -42,6 +42,7 @@
     <li><b>Call the migrations</b> 
         <ol>
           <li> php artisan migrate</li>
-        </ol>
+        </ol
     </li>
+    <li> cd  to your project folder and run <b>php artisan serve</b> and open your browser(localhost::8000) </li>
   </ul>
